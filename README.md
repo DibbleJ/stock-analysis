@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of this challenge is to provide refactor the project code that was given to Steve so the the run time can be improved. This will allow for the macro to be run on larger data sets. Analysis of the refactoring will include comparison between the time required to complete analysis with the original code and the time required to complete analysis with the refactored code.
+The purpose of this challenge is to refactor the project code that was given to Steve so that the run time can be improved. This will allow for the macro to be run on larger data sets. Analysis of the refactoring will include comparison between the time required to complete analysis with the original code and the time required to complete analysis with the refactored code.
 
 ## Analysis Results
 
@@ -23,7 +23,7 @@ After code refactoring was completed, the analysis of all stocks took just over 
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/40553064/117520599-90785280-af6e-11eb-80ed-4445cbcc12f9.PNG)
 
-The timing improvement stems from reducing the number of times that the code is run by a factor of twelve! The original code below will loop through the entire data set for every ticker symbol.
+The timing improvement stems from reducing the number of times that the data is analyzed by a factor of twelve! The original code below will loop through the entire data set for every ticker symbol.
 
 'loop through tickers
 For j = 0 To UBound(tickers)
