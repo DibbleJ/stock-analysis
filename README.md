@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of this challenge is to refactor the project code that was given to Steve so that the run time can be improved. This will allow for the macro to be run on larger data sets. Analysis of the refactoring will include comparison between the time required to complete analysis with the original code and the time required to complete analysis with the refactored code.
+The purpose of this project is to refactor code so that the run time can be improved. This will allow for the macro to be run on larger data sets. Analysis of the refactoring will include comparison between the time required to complete analysis with the original code and the time required to complete analysis with the refactored code.
 
 ## Analysis Results
 
